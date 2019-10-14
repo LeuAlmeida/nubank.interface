@@ -7,11 +7,12 @@ export const Container = styled.ScrollView.attrs({
 `;
 
 export const QRCode = styled.Image`
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
 `;
 
 export const Code = styled.View`
   background: #FFF;
   padding: 10px;
+  overflow: hidden;
 `;
