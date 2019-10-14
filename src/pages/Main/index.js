@@ -37,6 +37,10 @@ export default function Main() {
 
       if (translationY >= 100) {
         opened = true;
+      } else {
+        translateY.setValue(offset);
+        translateY.setOffset(0);
+        offset = 0;
       }
 
       Animated.timing(translateY, {
