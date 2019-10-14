@@ -1,18 +1,54 @@
+import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 
-export const Container = styled.ScrollView.attrs({
-  contentContainerStyle: { alignItems: 'center' },
-})`
+export const Container = styled.ScrollView`
   margin: 0 30px;
 `;
 
 export const QRCode = styled.Image`
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
 `;
 
 export const Code = styled.View`
   background: #FFF;
   padding: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
+  align-self: center;
+`;
+
+export const Nav = styled.View`
+  margin-top: 30px;
+  border-top-width: ${StyleSheet.hairlineWidth}px;
+  border-top-color: rgba(255, 255, 255, 0.8);
+`;
+
+export const NavItem = styled.View`
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom-width: ${StyleSheet.hairlineWidth}px;
+  border-bottom-color: rgba(255, 255, 255, 0.8);
+`;
+
+export const NavText = styled.Text`
+  font-size: 15px;
+  color: #FFF;
+  margin-left: 20px;
+`;
+
+export const SignOutButton = styled.TouchableOpacity`
+  border-width: ${StyleSheet.hairlineWidth}px;
+  border-color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin-top: 15px;
+`;
+
+export const SignOutButtonText = styled.Text`
+  color: #FFF;
+  font-weight: bold;
+  font-size: 13px;
 `;
