@@ -14,7 +14,7 @@
 - Yarn >= 1.17.3
 - NPM >= 6.9.0
 
-### :camera: <a href="http://linkedin.com/in/leonardoalmeida99">Click here to see the project video presentation</a>
+### :camera: <a href="https://www.linkedin.com/posts/leonardoalmeida99_reactjs-reactnative-bootcamp-activity-6589675755255447552-Fil8">Click here to see the project video presentation</a>
 
 <hr />
 
