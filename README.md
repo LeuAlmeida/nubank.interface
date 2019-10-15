@@ -1,5 +1,5 @@
 <p align="center">
-<img src="readme/logo-top.png" />
+<img src="readme/logo-top.png" height="75" width="auto" />
 </p>
 
 # Nubank Interface<br/>
